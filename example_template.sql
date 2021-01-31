@@ -15,7 +15,7 @@ INSERT INTO @Template VALUES
     ('DISTINCT VALUES', 'SELECT COUNT(DISTINCT <C>) [DistinctCount] 
                                 FROM <T> WHERE <C> IS NOT NULL')
 
---Create a list of the top 10 valus
+--Create a list of the top 10 distinct values
 INSERT INTO @Template VALUES 
     ('TOP N DISTINCT VALUES' ,
 	'SELECT TRIM(STRING_AGG(DISTINCT_LIST, '', '')) [Top 10 values] FROM
