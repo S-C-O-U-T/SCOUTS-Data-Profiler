@@ -3,9 +3,12 @@ A flexible pure T-SQL data profiler
 
 ### Install
 
-Run the adopt ```SCOUT_Data_Profiler.sql``` script. You will will most like need to be some kind of owner to do it.
+Run the adopt ```SCOUT_Data_Profiler.sql``` script. You will need to have rights to create a:
+* Schema
+* UDF Table Type
+* Stored Procedure 
 
-### How to use
+### How to use the SCOUTS profiler:
 ```SQL
 --Setup templates
 DECLARE @Template SCOUT.Templates
