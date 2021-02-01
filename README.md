@@ -3,7 +3,7 @@ A flexible pure T-SQL data profiler
 
 ### Install
 
-Run the adopt ```SCOUT_Data_Profiler.sql``` script. You will need to have rights to create a:
+Run the ```adopt SCOUT_Data_Profiler.sql``` script. You will need to have rights to create a:
 * Schema
 * UDF Table Type
 * Stored Procedure 
@@ -28,4 +28,4 @@ The above yields:
 
 A template is a small SQL query that returns one column and one row. The ```<C>``` represent a column and ```<T>``` represent a table. The profiler will run the template on each column of the table that are passed to it.
 
-For more example of templates to use ```example_template.sql```.
+For more example of templates to use: ```example_template.sql```.
